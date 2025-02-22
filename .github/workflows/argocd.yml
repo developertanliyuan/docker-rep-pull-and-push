@@ -3,7 +3,7 @@ name: Pull and Push Docker Image
 on:
   push:
     branches:
-      - main  # 可以根据需要修改为其他分支
+      - build-argocd  # 可以根据需要修改为其他分支
 
 jobs:
   build-and-push:
