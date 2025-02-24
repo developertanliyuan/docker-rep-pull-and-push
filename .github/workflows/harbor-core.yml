@@ -27,4 +27,4 @@ jobs:
         run: docker tag goharbor/harbor-core:v2.12.2 registry.cn-beijing.aliyuncs.com/tanliyuan/harbor-core:v2.12.2
 
       - name: Push Docker image to Alibaba Cloud Container Registry
-        run: docker push registry.cn-beijing.aliyuncs.com/tanliyuan/dex:v2.42.0
+        run: docker push registry.cn-beijing.aliyuncs.com/tanliyuan/harbor-core:v2.12.2
